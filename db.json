@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "aniket"
+    },
+    {
+      "id": "Tue Jan 31 2023 12:47:45 GMT+0530 (India Standard Time)",
+      "name": "sa"
+    },
+    {
+      "id": "Wed Feb 01 2023 15:08:44 GMT+0530 (India Standard Time)",
+      "name": "s"
+    }
+  ],
+  "work": [
+    {
+      "id": 1,
+      "tname": "rushi",
+      "temail": "rushi@gmail.com",
+      "tdate": "2023-02-02"
+    },
+    {
+      "id": 2,
+      "tname": "aniket",
+      "temail": "ani@gmail.com",
+      "tdate": "2023-02-03"
+    }
+  ]
+}
