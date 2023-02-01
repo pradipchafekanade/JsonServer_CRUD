@@ -10,6 +10,7 @@ import { ApiService } from './api.service';
 export class AppComponent {
   supplier: any;
   suppliers: any;
+  editedid:any;
 
   constructor(private api: ApiService) { }
 
@@ -31,7 +32,7 @@ export class AppComponent {
     
     if (data.id == "") {
       data.id = Date().toString();
-      this.api.post("users", data).subscribe((result: any) => {
+      this.api.post("users",+ this.editedid+ data).subscribe((result: any) => {
         this.load();
       });
     } else {
